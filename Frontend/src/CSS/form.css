@@ -1,0 +1,30 @@
+.card h3 {
+  margin-bottom: 20px;
+}
+
+.card button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.card button.primary {
+  background: linear-gradient(135deg, #6366f1, #4338ca);
+}
+
+.switch-text {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #c7d2fe;
+}
+
+.switch-text a {
+  color: #93c5fd;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.switch-text a:hover {
+  text-decoration: underline;
+}
+

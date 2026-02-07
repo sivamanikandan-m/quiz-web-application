@@ -1,0 +1,78 @@
+.quiz {
+  max-width: 850px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* QUESTION CARD */
+.question {
+  margin-bottom: 25px;
+  padding: 22px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+/* QUESTION TITLE */
+.question-title {
+  font-weight: 600;
+  margin-bottom: 18px;
+  font-size: 1.05rem;
+}
+
+.question p {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.question label {
+  /* display: block; */
+  margin: 6px 0;
+  cursor: pointer;
+}
+
+.quiz button {
+  margin-top: 20px;
+}
+
+/* OPTION ROW */
+.option-row {
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  align-items: center;      /* 🔥 FIX */
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+/* RADIO BUTTON */
+.option-row input[type="radio"] {
+  margin: 0;                /* 🔥 FIX */
+  transform: scale(1.1);
+  accent-color: #6366f1;
+}
+
+/* OPTION TEXT */
+.option-text {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: #1f2937;
+  padding: 25px;
+  border-radius: 12px;
+  width: 360px;
+  text-align: center;
+}
+
+
+

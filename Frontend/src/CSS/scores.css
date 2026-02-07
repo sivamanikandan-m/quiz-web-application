@@ -1,0 +1,82 @@
+.scores-page {
+  padding: 30px;
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #1e293b, #020617);
+  color: #fff;
+}
+
+/* TOP BAR */
+.scores-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.scores-top h2 {
+  font-size: 2rem;
+}
+
+.scores-top button {
+  background: #6366f1;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.scores-top button:hover {
+  background: #4f46e5;
+}
+
+/* GRID */
+.scores-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+/* CARD */
+.score-card {
+  background: linear-gradient(145deg, #1f2937, #111827);
+  border-radius: 14px;
+  padding: 16px 18px;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.45);
+  transition: transform 0.25s ease;
+}
+
+.score-card:hover {
+  transform: translateY(-4px);
+}
+
+/* TOPIC NAME */
+.score-card h3 {
+  font-size: 1.15rem;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+/* SCORE NUMBER */
+.score-value {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #22c55e;
+  margin-bottom: 6px;
+  text-align: center;
+}
+
+/* DATE */
+.score-date {
+  font-size: 0.8rem;
+  opacity: 0.75;
+  text-align: center;
+}
+
+/* NO SCORE */
+.no-score {
+  text-align: center;
+  margin-top: 40px;
+  opacity: 0.7;
+}

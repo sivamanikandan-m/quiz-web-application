@@ -1,0 +1,28 @@
+.home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.home h1 {
+  font-size: 3.2rem;
+  margin-bottom: 10px;
+}
+
+.home p {
+  font-size: 1.1rem;
+  color: #c7d2fe;
+  margin-bottom: 30px;
+}
+
+.home-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.home-buttons button {
+  min-width: 140px;
+}
