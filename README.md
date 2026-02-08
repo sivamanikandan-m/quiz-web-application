@@ -21,7 +21,7 @@ This application supports **Admin & User roles**, topic-based quizzes, score tra
 - Add / Delete quiz topics
 - Add / Update / Delete questions
 - View questions by topic
-- View user scores topic-wise (Leaderboard-style)
+- View user scores (Leaderboard / user-wish history)
 - Logout functionality
 ---
 
@@ -101,7 +101,7 @@ spring.datasource.password=your_password
 
 No JWT used (simple session-like logic)
 Role-based access handled manually (ADMIN / USER)
-Admins can manage topics & questions
+Admins can manage topics, questions and users
 Users can only attempt quizzes and view their scores
 
 ---
@@ -126,7 +126,7 @@ Score is calculated instantly after submission
 
 **📌 Future Enhancements**
 
-- JWT / OAuth security
+- JWT / OAuth based authentication
 
 - Timer-based quizzes
 
@@ -134,7 +134,7 @@ Score is calculated instantly after submission
 
 - Pagination & search
 
-- Deployment (AWS / Render / Vercel)
+- Cloud Deployment (AWS / Render / Vercel)
 
 ---
 
