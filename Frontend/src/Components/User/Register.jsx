@@ -16,7 +16,7 @@ export default function Register() {
   return (
     <div className="center-page">
       <div className="card">
-        <h3>User Registration</h3>
+        <h3>Register User</h3>
 
         <input
           placeholder="Username"

@@ -12,14 +12,6 @@ export default function Home() {
       <p>Test your knowledge and improve your skills 🚀</p>
 
       <div className="home-buttons">
-        <button onClick={() => navigate("/register")}>
-          Register
-        </button>
-
-        <button onClick={() => navigate("/login")}>
-          Login
-        </button>
-
         <button className="start"
           onClick={() => navigate("/login")}>
           Let’s Start

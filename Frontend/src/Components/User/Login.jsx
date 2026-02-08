@@ -38,7 +38,7 @@ export default function Login() {
   return (
     <div className="center-page">
       <div className="card">
-        <h3>User Login</h3>
+        <h3>Login User</h3>
 
         <input
           placeholder="Username"
